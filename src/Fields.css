@@ -1,0 +1,37 @@
+.fields-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field-row {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .field {
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 100px;
+  }
+  
+  .field-image {
+    width: 900px; /* Adjust the width as desired */
+    height: 500px; /* Adjust the height as desired */
+  }
+  
+
+  .book-now-box {
+    display: flex;
+    align-items: center;
+    background-color: #33ce38;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 16px;
+  }
+  
+  .book-now-button {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  

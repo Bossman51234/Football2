@@ -1,0 +1,153 @@
+ .booking-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input,
+  .form-field select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-field select {
+    appearance: none;
+  }
+  
+  .form-field button {
+    padding: 10px 20px;
+    background-color: rgb(7, 70, 7);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contract {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+  .contract h3 {
+    margin-top: 0;
+  }
+  
+  .contract p {
+    margin-bottom: 10px;
+  }
+  
+  .contract button {
+    padding: 8px 16px;
+    background-color: rgb(7, 70, 7);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  
+  .form-container {
+    background-color: #4caf50;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .box-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  .continue-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .booking-container {
+    margin-top: 140px; /* Adjust the margin-top value as needed */
+    padding-right: 1400px;
+    margin-bottom: 140px; /* Adjust the margin-top value as needed */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    right: 800px; /* Adjust the right value as needed */
+    transform: translate(0, -50%);
+    width: 300px; /* Adjust the width as needed */
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+
+  
+  .book-now-box {
+    display: flex;
+    align-items: center;
+    background-color: #33ce38;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 5px 16px;
+  }
+  
+  .book-now-button {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  

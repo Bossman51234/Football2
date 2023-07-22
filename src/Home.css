@@ -1,0 +1,139 @@
+/* Home.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  padding: 50px;
+  text-align: left;
+  width: 70%;
+  max-width: 800px;
+  margin-right: 900px;
+  padding-top: 50px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  background-color: rgb(7, 70, 7);
+  position: fixed;
+  top: 0;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-buttons-left,
+.nav-buttons-right {
+  margin: 0 10px;
+}
+
+.nav-buttons-left a,
+.nav-buttons-right a {
+  color: white;
+  padding: 8px 12px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(7, 70, 7);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: smaller;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-section.right {
+  text-align: right;
+}
+
+.description {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: left;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1000px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex: 1;
+}
+
+.footballimage {
+  width: 500px; /* Adjust the width as per your needs */
+  height: 350px; /* Maintain aspect ratio */
+  margin-left: auto; /* Center the image */
+  margin-right: 1000px;
+  padding-bottom: 500px;
+  padding-top: 50px;
+ /* Add some space from the header */
+}
+
+.book-now-box {
+  display: flex;
+  align-items: center;
+  background-color: #33ce38;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 5px 16px;
+}
+
+.book-now-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-buttons-right {
+  display: flex;
+  align-items: center;
+}
+
+
